@@ -1,0 +1,36 @@
+.menuVertical{
+  width: 80px;
+  margin-top: 56px;
+  height: 100%;
+  position: fixed;
+  background: #464343;
+}
+.menuVertical .navlist{
+  margin-top: 80px;
+	display: block;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+}
+.menuVertical  a{
+  font-size: 2em;
+  text-align: center;
+	position: relative;
+	display: block;
+	color: #ccc;
+	line-height: 2em;
+	padding: 10px 15px;
+
+}
+.hsubmenu{
+  float: right;
+}
+.hsubmenu a{
+  padding: 15px;
+  color: #ccc;
+}
+.hsubmenu a:link{
+  text-decoration: none;
+}
