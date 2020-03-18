@@ -1,0 +1,42 @@
+.contenttable{
+  padding-top: 30px;
+}
+
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+.buttpadd{
+  padding-left: 20px;
+}
+.contenthis{
+  padding: 20px;
+  border-radius: 5%;
+  background: #fff;
+}
+.contenthis h3{
+color: #ffc107;
+font-weight: 800;
+}
+.contenthis p{
+  color: #ffc107;
+  font-weight: 400;
+  }
+.dx-viewport{
+  padding-top: 60px;
+}
+#editpan{
+  background: #6c757d;
+}

@@ -1,8 +1,6 @@
 .menuVertical{
   width: 80px;
-  margin-top: 56px;
   height: 100%;
-  position: fixed;
   background: #464343;
 }
 .menuVertical .navlist{
@@ -24,6 +22,10 @@
 	padding: 10px 15px;
 
 }
+
+.example-sidenav-container {
+  flex: 1;
+}
 .hsubmenu{
   float: right;
 }
@@ -33,4 +35,11 @@
 }
 .hsubmenu a:link{
   text-decoration: none;
+}
+.mainappclass{
+  height: 100%;
+}
+.contentmain {
+  min-height: 100vh;
+
 }

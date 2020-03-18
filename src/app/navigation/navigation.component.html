@@ -4,18 +4,17 @@
     <button type="button" aria-label="Toggle sidenav" mat-icon-button (click)="drawer.toggle()" color="black">
       <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
     </button>
-    <span>LOGO</span>
   </div>
   <div class="col-4 hsubmenu">
     <a class="fas fa-star" routerLink="" routerLinkActive="active"></a>
       <a class="fas fa-bell" routerLink="table" routerLinkActive="active"></a>
       <a class="fas fa-cubes" routerLink="favourite" routerLinkActive="active"></a>
-      <button type="button" class="btn btn-outline-warning ">LogIn</button>
+      <button routerLink="/login" type="button" class="btn btn-outline-warning ">Войти</button>
   </div>
   </mat-toolbar-row>
 </mat-toolbar>
-<mat-sidenav-container >
-  <mat-sidenav #drawer mode="side" opened role="navigation" class="menuVertical">
+<mat-sidenav-container class="sidenav-container" >
+  <mat-sidenav #drawer mode="side" opened="false" role="navigation" class="menuVertical">
     <mat-nav-list class="navlist">
       <a class="fas fa-home" routerLink="" routerLinkActive="active"></a>
       <a class="fas fa-window-restore" routerLink="table" routerLinkActive="active"></a>
@@ -23,7 +22,10 @@
       <a class="fas fa-user" outerLink="user" routerLinkActive="active"></a>
     </mat-nav-list>
   </mat-sidenav>
-  <mat-sidenav-content>
-   <router-outlet></router-outlet>
-  </mat-sidenav-content>
+    <div class="jumbotron jumbotron-fluid contentmain ">
+      <div class="container ">
+                  <router-outlet></router-outlet>
+
+      </div>
+  </div>
 </mat-sidenav-container>

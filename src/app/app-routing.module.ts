@@ -7,11 +7,12 @@ import { FavouriteComponent} from './favourite/favourite.component';
 import { LoginComponent } from './login';
 import { RegisterComponent } from './register';
 import { AuthGuard } from './_helpers';
+import { tabwrapComponent } from './tabwrap/tabwrap.component';
 
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
-  { path: 'table', component: TableComponent },
+  { path: 'table', component: tabwrapComponent },
   { path: 'user', component: UserComponent },
   { path: 'favourite', component: FavouriteComponent },
   { path: 'login', component: LoginComponent },
